@@ -1,0 +1,76 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+body {
+    background-color: green;
+    font-size: 3em;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.mainEAB {
+    background: white;
+    max-width: 220px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px
+}
+
+.contentEAB {
+    margin-top: -15px;
+    margin-bottom: -15px;
+    height: 300px;
+}
+
+.topEAB {
+    padding: 0px 2px;
+    height: 20px;
+}
+
+.botEAB .heart::after {
+    content: "\2665";
+    color: red;
+}
+
+.botEAB .spade::after {
+    content: "\2660";
+}
+
+.botEAB .diamo::after {
+    content: "\2666";
+    color: red;
+}
+
+.botEAB .clubs::after {
+    content: "\2663";
+}
+
+.midEAB {
+    padding: 55px 0px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.botEAB {
+    padding: 0px 2px;
+    height: 20px;
+    transform: rotate(180deg);
+}
+
+.heart::before {
+    content: "\2665";
+    color: red;
+}
+
+.spade::before {
+    content: "\2660";
+}
+
+.diamo::before {
+    content: "\2666";
+    color: red;
+}
+
+.clubs::before {
+    content: "\2663";
+}
